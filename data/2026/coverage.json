@@ -1,0 +1,201 @@
+{
+  "release_date": "2026-10-19",
+  "fee_year": 2026,
+  "national_coverage_complete": false,
+  "national_school_denominator": null,
+  "record_unit": "school/campus and stage research record; not unique schools",
+  "records": 1431,
+  "with_extracted_amounts": 404,
+  "covered_states": [
+    "NSW",
+    "QLD",
+    "SA",
+    "VIC"
+  ],
+  "states_without_imported_records": [
+    "ACT",
+    "NT",
+    "TAS",
+    "WA"
+  ],
+  "gaps": [
+    "Regional NSW, Queensland, South Australia and Victoria are not comprehensively covered.",
+    "Adelaide primary CSV includes priced rows only; it is not the full directory.",
+    "Sydney secondary includes readable sources with no extracted secondary amounts.",
+    "Some July pending-source-research rows have not been reconciled with later published guides.",
+    "Amounts have not been rechecked at the October release date."
+  ],
+  "datasets": [
+    {
+      "dataset_id": "adelaide",
+      "records": 72,
+      "with_extracted_amounts": 72,
+      "source_status_counts": {
+        "2026-domestic-readable": 72
+      },
+      "guide_url": "https://airbotix.ai/resources/adelaide-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "adelaide-secondary",
+      "records": 12,
+      "with_extracted_amounts": 10,
+      "source_status_counts": {
+        "2026-domestic-readable": 10,
+        "not-publicly-listed": 2
+      },
+      "guide_url": "https://airbotix.ai/resources/adelaide-secondary-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "brisbane",
+      "records": 50,
+      "with_extracted_amounts": 23,
+      "source_status_counts": {
+        "pending-source-research": 26,
+        "2026-domestic-readable": 24
+      },
+      "guide_url": "https://airbotix.ai/resources/brisbane-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "brisbane-secondary",
+      "records": 59,
+      "with_extracted_amounts": 49,
+      "source_status_counts": {
+        "2026-domestic-readable": 49,
+        "not-publicly-listed": 5,
+        "login-restricted": 2,
+        "old-year-only": 3
+      },
+      "guide_url": "https://airbotix.ai/resources/brisbane-secondary-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "gold-coast",
+      "records": 31,
+      "with_extracted_amounts": 28,
+      "source_status_counts": {
+        "2026-domestic-readable": 28,
+        "login-restricted": 2,
+        "old-year-only": 1
+      },
+      "guide_url": "https://airbotix.ai/resources/gold-coast-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "gold-coast-secondary",
+      "records": 24,
+      "with_extracted_amounts": 19,
+      "source_status_counts": {
+        "2026-domestic-readable": 19,
+        "login-restricted": 3,
+        "not-publicly-listed": 2
+      },
+      "guide_url": "https://airbotix.ai/resources/gold-coast-secondary-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "melbourne",
+      "records": 385,
+      "with_extracted_amounts": 27,
+      "source_status_counts": {
+        "pending-source-research": 352,
+        "2026-domestic-readable": 33
+      },
+      "guide_url": "https://airbotix.ai/resources/melbourne-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "melbourne-secondary",
+      "records": 188,
+      "with_extracted_amounts": 79,
+      "source_status_counts": {
+        "2026-domestic-readable": 79,
+        "not-publicly-listed": 102,
+        "old-year-only": 5,
+        "login-restricted": 2
+      },
+      "guide_url": "https://airbotix.ai/resources/melbourne-secondary-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "sydney",
+      "records": 472,
+      "with_extracted_amounts": 91,
+      "source_status_counts": {
+        "2026-domestic-readable": 94,
+        "old-year-only": 3,
+        "not-publicly-listed": 34,
+        "pending-source-research": 341
+      },
+      "guide_url": "https://airbotix.ai/resources/sydney-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "sydney-secondary",
+      "records": 138,
+      "with_extracted_amounts": 6,
+      "source_status_counts": {
+        "2026-domestic-readable": 51,
+        "old-year-only": 4,
+        "not-publicly-listed": 79,
+        "login-restricted": 4
+      },
+      "guide_url": "https://airbotix.ai/resources/sydney-secondary-private-school-fees-2026/"
+    }
+  ],
+  "import_fingerprints": [
+    {
+      "dataset_id": "adelaide",
+      "sha256": "f6f6125d83b8ba416fb5d80f5914e75cb9dba23cbfbca8ac10cd44dff30674c7",
+      "source_artifact": "price-table-working-2026.csv",
+      "rows": 72
+    },
+    {
+      "dataset_id": "adelaide-secondary",
+      "sha256": "d891b917a4f79b2049f52fe2a975e48ef8c2d152146cfd07934f5db604897f60",
+      "source_artifact": "official-fees-working-2026-07-21.csv",
+      "rows": 12
+    },
+    {
+      "dataset_id": "brisbane",
+      "sha256": "20ce7f953e98d5d95dc7e71a42b4c7e3598c6255b6c6500e17a33e67f31cae9a",
+      "source_artifact": "price-table-working-2026.csv",
+      "rows": 50
+    },
+    {
+      "dataset_id": "brisbane-secondary",
+      "sha256": "3fc9f71013d91626b138a5a0612456f43a6fdb96c3a523fd9bfce5037c4d5667",
+      "source_artifact": "official-fees-working-2026-07-16.csv",
+      "rows": 59
+    },
+    {
+      "dataset_id": "gold-coast-secondary",
+      "sha256": "c42e966bd01b40c784fc9cd5fabf701001b0cc82cefff6926a63fd20878062d6",
+      "source_artifact": "official-directory-and-fees-2026-07-16.csv",
+      "rows": 24
+    },
+    {
+      "dataset_id": "melbourne",
+      "sha256": "2d3abb44d55efd32a4507faf35afefbe2590a8803848ef55ee2228794e30314f",
+      "source_artifact": "price-table-working-2026.csv",
+      "rows": 385
+    },
+    {
+      "dataset_id": "melbourne-secondary",
+      "sha256": "08c7810f5cea255008d503f566e075c4e9bc964ff13dc1c9f0e4283a1efe666c",
+      "source_artifact": "price-table-working-2026.csv",
+      "rows": 188
+    },
+    {
+      "dataset_id": "sydney",
+      "sha256": "a49c9f82e78dce67bf05751d9703a619139b384dcc364aa5245ed8326ef26e5f",
+      "source_artifact": "price-table-working-2026.csv",
+      "rows": 472
+    },
+    {
+      "dataset_id": "sydney-secondary",
+      "sha256": "4e8c44e613c13e94d416417892922722f072cab9f80a5dd6b172510dbb624dd9",
+      "source_artifact": "official-fees-working-2026-07-16.csv",
+      "rows": 138
+    },
+    {
+      "dataset_id": "gold-coast",
+      "sha256": "5eca380cee0dc63c5c673c7539d57fabe2d2aad1448781cfa86308d8a1bd2e24",
+      "source_artifact": "published-manuscript",
+      "rows": 31
+    }
+  ]
+}
